@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Mukta;
+    src: url(Fonts/MuktaMalar-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Karasha;
+    src: url(Fonts/KARASHA\ \(DEMO\).TTF);
+}
+
+@font-face {
+    font-family: Lancelot;
+    src: url(Fonts/Lancelot-Regular.ttf);
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+
+}
+
+body
+{
+    background-image: url(Pictures/Main\ Menu.png);
+    background-size: 1879px 950px;
+}
+
+.logo
+{
+    width: 210px;
+    height: 230px;
+    margin-left: 300px;
+    margin-top: 160px;
+    user-select: none;
+}
+
+.upmenu 
+{
+    margin-left: 760px;
+    margin-top: -240px;
+    display: flex;
+    gap: 30px;
+}
+
+.upmenu a:hover
+{
+    text-shadow: 6px 5px 27px #525252;
+}
+
+.a
+{
+    text-decoration: none;
+    color: #161A1D;
+    font-size: 30px;
+    font-family: Mukta;
+    font-weight: lighter;
+}
+
+h1
+{
+    font-size: 70px;
+    font-family: Karasha;
+    margin-left: 310px;
+    margin-top: 220px;
+    color: #A4161A;
+    font-weight: lighter;
+    user-select: none;
+}
+
+.underh1
+{
+    color: #A4161A;
+    font-family: Lancelot;
+    font-size: 30px;
+    margin-left: 310px;
+    user-select: none;
+}
+
+.button
+{
+    background-color:#A4161A;
+    width: 191px;
+    height: 59px;
+    border-radius: 50px;
+    margin-left: 310px;
+    border-style: none;   
+    margin-top: 40px;
+    box-shadow: 1px 1px 5px #161A1D;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.button:hover
+{
+    background-color:#b4383d;
+    transition: 0.5s;
+}
+
+
+.button a
+{
+    color:#F5F3F4;
+    text-decoration: none;
+    font-family: Lancelot;
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.button span
+{
+    position: relative;
+    z-index: 1;
+}
+
+.sm
+{
+    margin-left: 1540px;
+    display: grid;
+    margin-top: -300px;
+    gap: 40px;
+    position: absolute;
+}
+
+.sm img:hover
+{
+    cursor: pointer;
+}
+
+.Sushi
+{
+    position: absolute;
+    width: 635px;
+    height: 586px;
+    top: 0;
+    right: 0;
+    margin-right: 220px;
+    margin-top: 134px;
+    z-index: -1;
+}
+
+.ikigai
+{
+    margin-left: 1330px;
+    margin-top: 65px;
+    width: 220px;
+}
+
+.ikigai p
+{
+    color:#A4161A;
+    font-family: Karasha;
+    text-align: center;
+    font-size: 26px;
+    font-weight:lighter;
+}

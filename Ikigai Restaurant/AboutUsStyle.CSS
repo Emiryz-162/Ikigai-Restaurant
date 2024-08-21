@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Mukta;
+    src: url(Fonts/MuktaMalar-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: Karasha;
+    src: url(Fonts/KARASHA\ \(DEMO\).TTF);
+}
+
+@font-face {
+    font-family: Lancelot;
+    src: url(Fonts/Lancelot-Regular.ttf);
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+    user-select: none;
+}
+
+body
+{
+    background-image: url(Pictures/About\ Us.png);
+    background-size: 1879px 950px;
+}
+
+.go
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    margin-left: 320px;
+    margin-top: 175px;
+}
+
+.flex
+{
+    display: flex;
+}
+
+.about 
+{
+    width: 500px;
+    margin-left: 360px;
+    margin-top: 160px;
+}
+
+.about h2
+{
+    color: #A4161A;
+    text-align: center;
+    font-size: 70px;
+    font-family: Lancelot;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.about p
+{
+    color: #A4161A;
+    font-size: 28px;
+    line-height: 45px;
+    font-family: Lancelot;
+}
+
+
+/*Contact Us*/
+
+.contact
+{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 380px;
+    margin-top: 160px;
+}
+
+.contact h2
+{
+    color: #A4161A;
+    text-align: center;
+    font-size: 70px;
+    font-family: Lancelot;
+    margin-bottom: 50px;
+    font-weight: lighter;
+}
+
+.contact p
+{
+    color: #A4161A;
+    font-size: 28px;
+    line-height: 45px;
+    font-family: Lancelot;
+    margin-bottom: 30px
+}
+
+.sm 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    margin-top: 20px;
+    gap: 60px;
+    margin-right: 320px;
+    margin-bottom: 250px;
+}
